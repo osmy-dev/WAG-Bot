@@ -24,5 +24,4 @@ async def on_member_remove(member):
   channel = bot.get_channel() #channel id
   await channel.send(f"{member.mention} 离开了OsmyNetwork")
 
-keep_alive.keep_alive()
 bot.run("") #Bot Token
